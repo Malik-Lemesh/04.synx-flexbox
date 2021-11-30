@@ -78,7 +78,7 @@ nav span {
     font-family: 'Gugi';
     font-weight: bold;
 }
-hgroup {
+header hgroup {
     color: white;
     display: flex;
     flex-direction: column;
@@ -88,10 +88,10 @@ hgroup {
     padding: 0 100px;
     text-align: center;
 }
-hgroup h1 {
+header hgroup h1 {
     font-size: 3rem;
 }
-hgroup p {
+header hgroup p {
     font-size: 1.2rem;
     padding: 20px 0;
 }
@@ -219,4 +219,77 @@ hgroup p {
 }
 .three p {
     margin: 20px 0;
+}
+
+/* section four */
+hgroup {
+    text-align: center;
+    margin: 40px 0;
+}
+hgroup h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ef233c;
+}
+hgroup h2 {
+    font-size: 3rem;
+}
+.four {
+    margin: 40px auto;
+   width: 90%;
+}
+.four .row {
+    display: flex;
+}
+.four .col {
+    flex: 1;
+    padding: 50px;
+}
+.four h3 {
+    color: #ef233c;
+    font-size: 2rem;
+}
+
+.four .img1 {
+    background-image: url(img/people1.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.four .img2 {
+    background-image: url(img/people2.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.four .img3 {
+    background-image: url(img/people3.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.four .row:nth-child(2) .img2 {
+    order: 2;
+}
+.four .row.row:nth-child(2) .text {
+    order: 1;
+    text-align: right;
+}
+.four .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.four .icons {
+    display: flex;
+    padding-top: 30px;
+    font-size: 1.7rem;
+}
+
+.four .icons li a {
+    color: #ef233c;
+    margin-left: 100px;
+}
+.four .icons li a:hover {
+    color: #414141;
+    transition: .3s ease;
 }
