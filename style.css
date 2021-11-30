@@ -192,3 +192,31 @@ hgroup p {
     transition: .3s ease;
     text-decoration: none;
 }
+
+/* section three */
+
+.three {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/three.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    padding: 50px;
+}
+.three h4 {
+    color: #ef233c;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.three h2 {
+    font-size: 2rem;
+}
+.three p {
+    margin: 20px 0;
+}
