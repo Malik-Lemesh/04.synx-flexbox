@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Kaushan+Script&family=Source+Sans+Pro:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -12,9 +12,85 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Kaushan Script', cursive;
 }
-
+ul {
+    list-style-type: none;
+}
+button {
+    background: #ef233c;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+button:hover {
+    background: #414141;
+    transition: .3s ease;
+    cursor: pointer;
+}
 /* header */
 header {
-    background-image: url(img/header.jpg);
-    height: ;
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(img/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 30px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #414141;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav ul li a:hover {
+    color: #ef233c;
+    transition: .3s ease;
+
+}
+.logo {
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    color:#414141;
+    padding-top: 8px;
+}
+.logo::first-letter {
+    color: #ef233c;
+}
+nav span {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-family: 'Gugi';
+    font-weight: bold;
+}
+hgroup {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 0 100px;
+    text-align: center;
+}
+hgroup h1 {
+    font-size: 3rem;
+}
+hgroup p {
+    font-size: 1.2rem;
+    padding: 20px 0;
 }
