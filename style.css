@@ -8,6 +8,7 @@
 body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.7;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Kaushan Script', cursive;
@@ -131,4 +132,63 @@ hgroup p {
 .one .text p {
     padding: 30px 0;
     line-height: 1.8;
+}
+/* section two */
+.two {
+    background: #f8f8f8;
+    padding: 50px 0;
+}
+.two .row:first-child {
+    text-align: center;
+    padding: 0 150px;
+}
+.two .row:first-child h4{
+    color: #ef233c;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 30px 0;
+
+}
+.two .underline {
+    display: block;
+    content: "";    
+    height: 3px;
+    width: 100px;
+    background: #ef233c;
+    margin: 0 auto 30px auto;
+}
+.two .row:first-child p {
+    padding: 40px 0;
+}
+.two .row:last-child {
+    display: flex;
+}
+.two .column {
+    flex: 1;
+    margin: 20px 40px 20px 40px;
+}
+.two .row:last-child .column:nth-child(1) h3::before {
+    font-family: 'Font Awesome 5 Brands';
+    content: "\f099";
+    color: #ef233c;
+}
+.two .row:last-child .column:nth-child(2) h3::before {
+    font-family: 'Font Awesome 5 Brands';
+    content: "\f179";
+    color: #ef233c;
+}
+.two .row:last-child .column:nth-child(3) h3::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f140";
+    color: #ef233c;
+}
+.two .column p {
+    padding-bottom: 20px;
+}
+.two .column a {
+    color: #ef233c;
+}
+.two .column a:hover {
+    color: #414141;
+    transition: .3s ease;
+    text-decoration: none;
 }
