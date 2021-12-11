@@ -293,3 +293,60 @@ hgroup h2 {
     color: #414141;
     transition: .3s ease;
 }
+/* five */
+.five {
+    background: #ef233c;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+.five h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.five h2 {
+    font-size: 3rem;
+}
+/* six */
+.six .img1 {
+    background-image: url(/img/project1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.six .img2 {
+    background-image: url(/img/project2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.six .img3 {
+    background-image: url(/img/project3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.six .img4 {
+    background-image: url(/img/project4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.six .img5 {
+    background-image: url(/img/project5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+.six {
+    display: flex;
+}
+.six .col {
+    flex: 1;
+}
+ .six article:last-child {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .six article:last-child div {
+     flex: 0 0 50%;
+ }
