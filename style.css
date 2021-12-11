@@ -350,3 +350,10 @@ hgroup h2 {
  .six article:last-child div {
      flex: 0 0 50%;
  }
+ /* section seven */
+ .seven {
+     background: #ef233c;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+ }
