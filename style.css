@@ -389,3 +389,39 @@ hgroup h2 {
  .nine h2 {
      font-size: 3rem;
  }
+ /* section ten  */
+ .ten {
+     display: flex;
+     width: 90%;
+     margin: auto;
+     padding-bottom: 50px;
+
+ }
+ .ten article {
+     flex: 1;
+     padding: 60px;
+ }
+ .ten article h3 {
+     font-size: 1.5rem;
+     text-indent: 15px;
+ }
+ .ten article h2 {
+     font-size: 2rem;
+     padding-bottom: 50px;
+ }
+ .ten article span {
+    position: relative;
+    top: -10px;
+    font-size: 1.2rem;
+    color: #ef233c;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.ten article:nth-child(2) {
+    box-shadow: 0 0 10px #414141;
+}
+.ten article ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f14a";
+    color: #ef233c;
+    margin-right: 5px;
+}
