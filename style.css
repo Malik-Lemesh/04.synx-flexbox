@@ -425,3 +425,25 @@ hgroup h2 {
     color: #ef233c;
     margin-right: 5px;
 }
+
+/* section eleven */
+.eleven {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/eleven.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.eleven h1 {
+    color: white;
+    font-size: 1.7rem;
+    padding-bottom: 15px;
+}
+.eleven p {
+    color: #ef233c;
+    font-weight: 800;
+    font-style: italic;
+}
