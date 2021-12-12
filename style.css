@@ -433,7 +433,7 @@ hgroup h2 {
     background-size: cover;
     height: 50vh;
     display: flex;
-    text-align: center;
+    te-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -447,3 +447,47 @@ hgroup h2 {
     font-weight: 800;
     font-style: italic;
 }
+/* section contact */
+
+.contact {
+    margin: auto;
+    width: 90%;
+    padding: 30px 0;
+}
+.contact-head {
+    padding-bottom: 50px;
+}
+.contact-head h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ef233c;
+    font-size: .8rem;
+    padding-bottom: 15px;
+}
+.contact-head h2 {
+    font-size: 2rem;
+    line-height: 1.6rem;
+}
+.getInTouch {
+    padding-bottom: 15px;
+}
+.getInTouch h4 {
+    padding-bottom: 15px;
+}
+.getInTouch span {
+    color: #ef233c;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+input,
+textarea{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
