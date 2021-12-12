@@ -433,7 +433,7 @@ hgroup h2 {
     background-size: cover;
     height: 50vh;
     display: flex;
-    te-align: center;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -489,5 +489,8 @@ textarea{
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
+}
+button {
+    width: 25%;
 }
 
