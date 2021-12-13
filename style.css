@@ -527,9 +527,9 @@ footer {
   /* responsive  */
 
   .dropbtn {
-    background-color: #04AA6D;
+    background-color: #ef233c;
     color: white;
-    padding: 16px;
+    padding: 15px;
     font-size: 16px;
     border: none;
     width: 100%;
@@ -544,7 +544,8 @@ footer {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
     z-index: 1;
   }
   
@@ -555,11 +556,11 @@ footer {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:active {background-color: #ddd;}
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:active .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:active .dropbtn {background-color: #414141;}
 
   @media (max-width:965px) {
     .hide{
